@@ -1,0 +1,10 @@
+{
+  "name": "Median",
+  "description": "Return the max value of a cell",
+  "tags": ["basic statistics"],
+  "authors": ["tercen"],
+  "urls": ["https://github.com/tercen/median_operator"],
+  "properties": []
+}
+
+
