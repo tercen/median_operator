@@ -1,7 +1,7 @@
 # Median operator
 
 ##### Description
-`Median` operator returns the median of a set of data points.
+`Median` operator returns the middle value of a range. The value that has an equal number of values above and below it.
 
 ##### Usage
 
@@ -22,4 +22,5 @@ The operator takes all the values of a cell and returns the value which is the m
 ##### See Also
 
 [mean_operator](https://github.com/tercen/mean_operator)
+
 #### Examples
