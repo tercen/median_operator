@@ -24,3 +24,4 @@ The operator takes all the values of a cell and returns the value which is the m
 [mean_operator](https://github.com/tercen/mean_operator)
 
 #### Examples
+
