@@ -1,0 +1,13 @@
+{
+  "kind": "OperatorUnitTest",
+  "name": "median",
+  "namespace": "test",
+  "inputDataUri": "input_khan_long.csv",
+  "outputDataUri": ["output_khan_long.csv"],
+  "columns": ["observation"],
+  "rows": ["variable"],
+  "colors": [],
+  "labels": [],
+  "yAxis": "measurement",
+  "xAxis": ""
+}
