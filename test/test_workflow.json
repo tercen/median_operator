@@ -4,7 +4,7 @@
   "namespace": "test",
   "inputDataUri": "input_khan_long.csv",
   "outputDataUri": "Median_operator-Export.csv",
-  "columns": ["sample_name"],
+  "columns": "sample_name",
   "rows": [],
   "colors": [],
   "labels": [],
