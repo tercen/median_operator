@@ -3,7 +3,7 @@
   "name": "median",
   "namespace": "test",
   "inputDataUri": "input_khan_long.csv",
-  "outputDataUri": ["Median-Export.csv"],
+  "outputDataUri": ["table1.csv","table2.csv"],
   "columns": ["sample_name"],
   "rows": [],
   "colors": [],
