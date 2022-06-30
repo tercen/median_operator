@@ -1,11 +1,15 @@
 library(tercen)
 library(dplyr)
+library(data.table)
 
-ctx <- tercenCtx() # Get data from the data step
+ctx <- tercenCtx()
 
-ctx   %>% 
-  select(.y, .ci, .ri) %>% 
-  group_by(.ci, .ri) %>%
-  summarise(median = median(.y)) %>%
-  ctx$addNamespace() %>%
-  ctx$save()
+df <- ctx %>% 
+  select(.y, .ci, .ri) %>%
+  as.data.table()
+
+df_out <- df[, list(median = median(.y)), by = .(.ci, .ri)] %>%
+  as_tibble() %>%
+  ctx$addNamespace() 
+
+ctx$save(df_out)
