@@ -1,10 +1,14 @@
 {
   "name": "Median",
   "description": "Calculates the middle value of a range. The value that has an equal number of values above and below it.",
-  "tags": ["basic statistics"],
-  "authors": ["tercen"],
-  "urls": ["https://github.com/tercen/median_operator"],
+  "tags": [
+    "descriptive statistics"
+  ],
+  "authors": [
+    "tercen"
+  ],
+  "urls": [
+    "https://github.com/tercen/median_operator"
+  ],
   "properties": []
 }
-
-
