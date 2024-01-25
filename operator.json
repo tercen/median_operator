@@ -1,6 +1,6 @@
 {
   "name": "Median",
-  "description": "Calculates the middle value of a range. The value that has an equal number of values above and below it.",
+  "description": "Computes the median of data points in a cell.",
   "tags": [
     "descriptive statistics"
   ],
